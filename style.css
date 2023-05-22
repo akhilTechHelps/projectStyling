@@ -4,7 +4,7 @@
 }
 .sub_main_open {
   display: flex;
-  margin: 2rem;
+  margin: 3rem;
   flex-direction: row;
   justify-content: space-between;
 }
