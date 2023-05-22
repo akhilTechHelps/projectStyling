@@ -19,6 +19,7 @@
   font-family: "Poppins", sans-serif;
 }
 .sub_main_lead_profile {
+  margin:2rem;
   display: flex;
   justify-content: space-between;
 }
