@@ -85,4 +85,17 @@
   border: 1px solid rgba(232, 233, 235, 1);
   border-radius: 2.8rem;
 }
-
+.main_addnote {
+  display: flex;
+  flex-direction: column;
+}
+.sub_main_addnote {
+  display: flex;
+  margin: 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub_main_main_addnote {
+  display: flex;
+  gap: 2rem;
+}
