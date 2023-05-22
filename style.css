@@ -1,3 +1,14 @@
-*{
-    background-color: blue;
+.main_open {
+  display: flex;
+  flex-direction: column;
+}
+.sub_main_open {
+  display: flex;
+  margin: 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub_main_main_open {
+  display: flex;
+  gap: 2rem;
 }
