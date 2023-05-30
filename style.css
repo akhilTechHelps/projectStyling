@@ -155,3 +155,45 @@
   align-items: center;
   gap: 1rem;
 }
+.custompie_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+.cardstop_card {
+  box-shadow: 2;
+  gap: 1rem;
+  display: flex;
+}
+.cardstop_card_sub_main {
+  display: flex;
+  gap: 8rem;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+}
+.cardstop_card_sub_main_main {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.salescard_main {
+  box-shadow: 2;
+}
+.salescard_sub_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.dashboard_main {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.dashboard_sub_main {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
