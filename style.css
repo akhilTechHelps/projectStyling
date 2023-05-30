@@ -120,3 +120,38 @@
   color: #fff;
   border-radius: 1.5rem;
 }
+.Transaction_main {
+  padding: 2rem;
+}
+.Transaction_main_sub_main {
+  display: flex;
+  flex-direction: column;
+}
+.Transaction_main_sub_main_sub_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Transaction_main_sub_main_sub_main_sub_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Transaction_main_sub_main_main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.Transaction_main_sub_main_sub_main_sub_main_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.Transaction_main_sub_main_sub_main_sub_main_main_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
