@@ -279,3 +279,96 @@
     text-align: left;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+html {
+  font-size: 80%;
+}
+
+/* calls component */
+
+  
+  /* MyComponent.css */
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* adjust these values as needed */
+  }
+  
+  .sub_main_lead_sub {
+    display: flex;
+  }
+  .sub_main_icon_typography {
+    display: flex;
+    align-items: center;
+  }
+  .sub_main_tabs_call {
+    width: 50%;
+    height: 70vh;
+    margin-top: 2rem;
+    border: 1px solid rgba(232, 233, 235, 1);
+    border-radius: 2.8rem;
+  }
+  .sub_main_main_info_call {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid rgba(232, 233, 235, 1);
+    border-radius: 1.4rem;
+  }
+  .call_data {
+    display: flex;
+    flex-direction: column;
+  }
+  .call_progress_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .video_player {
+    margin-left: 2rem;
+  }
+  .tabs_main {
+    width: 100%;
+  }
+  .tabs_main_main {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(232, 233, 235, 1);
+  }
+  
+  .btn_style {
+    /* font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: rgba(48, 79, 253, 1);
+    padding: 1rem;
+    color: #fff;
+    border-radius: 1.5rem; */
+    padding: 2rem;
+    color: #fff;
+  }
+  
+
+
